@@ -15,7 +15,7 @@
                         <a href="banenr.html">infoWEB</a>
                     </div>
                     <ul class="ul">
-                        <li><a href="<?= BASE_URL ?>/home">HOME</a></li>
+                        <li><a href="<?= BASE_URL ?>/home">Home</a></li>
                         <li><a href="<?= BASE_URL ?>/sobre">Sobre nós</a></li>
                         <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
                     </ul>
