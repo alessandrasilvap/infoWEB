@@ -41,7 +41,7 @@
                     <h3>Antivirus</h3>
                     <p>O antivírus é um programa que ajuda a proteger seu computador ou celular contra vírus e outros perigos. Ele funciona como um guarda-costas digital. Quando você baixa algo ou entra em um site suspeito, o antivírus verifica se é seguro. Sem um antivírus, seu aparelho pode ser infectado, e você pode perder arquivos importantes ou ter suas informações roubadas. Por isso, mantenha sempre um antivírus atualizado instalado em seus dispositivos.</p>
                 </div>
-                <a id="video"  href="https://youtu.be/niXk_xm0dk8?si=OgIJYbowzF9XigLl">Video</a>
+                <a id="video" href="https://youtu.be/niXk_xm0dk8?si=OgIJYbowzF9XigLl">Video</a>
                 <button id="Mais-button">Mais</button>
             </div>
             <div class="card">
@@ -52,7 +52,7 @@
                     <h3>Sites falsos</h3>
                     <p>Sites falsos são páginas da internet criadas para enganar as pessoas. Eles imitam o visual de sites verdadeiros, como de lojas, bancos ou redes sociais, para fazer você acreditar que está em um lugar seguro. Quando alguém acessa esse tipo de site e coloca informações como CPF, número do cartão ou senhas, essas informações vão direto para os golpistas. Para se proteger, é importante sempre verificar se o endereço do site está correto, se começa com “https://” e se aparece um cadeado ao lado do link. Além disso, nunca clique em links de mensagens estranhas ou de pessoas desconhecidas. Desconfie de promoções boas demais, pois podem ser armadilhas.</p>
                 </div>
-                 <a id="video"  href="https://youtu.be/4yDpAZ6-oYA?si=CeuZdoiDbUdQn1fy">Video</a>
+                 <a id="video" href="https://youtu.be/4yDpAZ6-oYA?si=CeuZdoiDbUdQn1fy">Video</a>
                 <button id="Mais-button">Mais</button>
                 </div>
                 <div class="card">
@@ -63,7 +63,7 @@
                         <h3>Lei Geral de Proteção de Dados Pessoais (LGPD)</h3>
                         <p>A LGPD é uma lei brasileira que protege os dados pessoais das pessoas. Isso significa que empresas, sites e aplicativos só podem usar seus dados, como nome, telefone, e-mail, CPF, com a sua autorização. A lei exige que as empresas digam com clareza para que vão usar seus dados e que guardem essas informações com segurança. Se você quiser, pode pedir para ver, corrigir ou apagar os seus dados de qualquer empresa. A LGPD é importante porque dá mais controle para as pessoas sobre suas próprias informações e ajuda a evitar o uso indevido ou criminoso desses dados.</p>
                     </div>
-                     <a id="video"  href="https://youtu.be/oFRROvMVUWQ?si=eMp4hnOPGBp9d-ee">Video</a>
+                     <a id="video" href="https://youtu.be/oFRROvMVUWQ?si=eMp4hnOPGBp9d-ee">Video</a>
                     <button id="Mais-button">Mais</button>
                 </div>
                 <div class="card">
@@ -85,7 +85,7 @@
                         <h3>Senha</h3>
                         <p>A senha é uma das principais formas de proteger suas contas na internet. Por isso, ela precisa ser forte e segura. Uma boa senha deve ter letras maiúsculas e minúsculas, números e símbolos, e não pode ser fácil de adivinhar, como “123456” ou seu nome. Além disso, o ideal é usar senhas diferentes para cada conta que você tem, como redes sociais, e-mail e sites de compras. Outra dica é trocar suas senhas de tempos em tempos e nunca compartilhá-las com outras pessoas. Se possível, ative a verificação em duas etapas, que adiciona uma camada extra de segurança, pedindo um código no seu celular além da senha.</p>
                     </div>
-                     <a id="video"  href="https://youtu.be/2uZBf4xaPug?si=Rw8OJzhyfkKSO6Mg">Video</a>
+                     <a id="video" href="https://youtu.be/2uZBf4xaPug?si=Rw8OJzhyfkKSO6Mg">Video</a>
                     <button id="Mais-button">Mais</button>
                 </div>
                 <div class="card">
@@ -96,7 +96,7 @@
                         <h3>Link Malicioso</h3>
                         <p>Links maliciosos são links perigosos que podem levar você a sites falsos ou instalar vírus no seu computador ou celular. Eles geralmente chegam por e-mail, redes sociais, mensagens de texto ou até mesmo por pessoas conhecidas que tiveram suas contas invadidas. Esses links muitas vezes prometem prêmios, ofertas incríveis ou avisos falsos para fazer você clicar. Depois que você acessa, o site pode pedir suas informações ou baixar algo sem você perceber. Para se proteger, evite clicar em links suspeitos e sempre desconfie de mensagens com erros de português, promessas exageradas ou de remetentes desconhecidos. Quando tiver dúvida, é melhor não clicar.</p>
                     </div>
-                     <a id="video"  href="https://youtu.be/_x6Xe42_wBs?si=B12bEhgFAhGjIAk5">Video</a>
+                     <a id="video" href="https://youtu.be/_x6Xe42_wBs?si=B12bEhgFAhGjIAk5">Video</a>
                     <button id="Mais-button">Mais</button>
                 </div>
             </div>
