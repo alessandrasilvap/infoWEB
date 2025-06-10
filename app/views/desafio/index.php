@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafios</title>
     <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="../public/css/quiz.css">
 </head>
 <body>
     <div class="banner-azul">
