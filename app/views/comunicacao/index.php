@@ -13,7 +13,7 @@
             <div class="col-md-12">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?= BASE_URL ?>/introducao">Início</a>
+                        <a class="nav-link active" href="<?= BASE_URL ?>/home">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"></a>
