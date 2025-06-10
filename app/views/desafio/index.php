@@ -52,6 +52,23 @@
 
                 </p>
                 <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/ac9b785faa814f71b96e4a1fca8c12ea?themeId=2&templateId=10&fontStackId=0" width="500" height="580" frameborder="0" allowfullscreen></iframe>
+
+                <!--QUIZ-->
+                <h2 id="quiz">Quiz Eco Point</h2>
+                <p>Teste seu conhecimento sobre Reciclagem eletrônica! Você pode ser tornar um especialista no assunto. Participe do nosso Quiz Eco Point e descubra como você pode fazer a diferença!</p>
+                <br>
+                <div class="quiz-container">
+                    <button class="start-quiz button">Iniciar Quiz</button>
+                    <div class="questions-container hide">
+                        <h2 class="question"></h2>
+                        <div class="answers-container"></div>
+                        <button class="next-question button hide">Próxima pergunta</button>
+                    </div>
+                </div>
+                <script>
+                    const questions = <?= json_encode($perguntas); ?>;
+                </script>
+                
                 <nav class="pagination-lg">
                     <ul class="pagination">
                         <li class="page-item">
