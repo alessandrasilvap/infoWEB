@@ -128,6 +128,7 @@
                 </div>
              </div>
              <div class="btn-bar">
+                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
                 <p>&copy;2025 your compan . All rights reserved </p>
              </div>
          </footer>
