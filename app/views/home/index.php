@@ -39,11 +39,9 @@
             </div>
         </main>
     </div>
-    
     <section id="sobre">
         <h2>O que é o ‘Navegando com Segurança’?</h2>
         <p>O ‘Navegando com Segurança’ é um projeto educativo criado para ajudar as pessoas a se protegerem na internet. Aqui você encontrará conteúdos interativos, dicas de segurança e um quiz para testar seus conhecimentos.</p>
-        
         <div class="beneficios">
             <a href="<?= BASE_URL ?>/dicas" class="beneficio">
                 <img src="../public/imagens/home/proteja-se.png" alt="Segurança">
@@ -61,7 +59,7 @@
     </section>
     <!--footer-->
     <footer>
-         <div class="footer-container">
+        <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
                 <p> Email:Info@exemplo.com</p>
@@ -85,13 +83,13 @@
                 <li><a href=""><i class="fab fa-Instagram"></i></a></li>
                 <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
             </div>
-         </div>
-         <div class="btn-bar">
-            <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-            <p>&copy;2025 your compan . All rights reserved </p>
-         </div>
-     </footer>
-     <!--end-footer-->
+            <div class="btn-bar">
+                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
+                <p>&copy;2025 your compan . All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!--end-footer-->
     <script src="../public/js/menu-mob.js"></script>
 </body>
 </html>

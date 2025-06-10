@@ -41,4 +41,7 @@ class App {
     }
 }
 
+/*Este arquivo, App.php, é extremamente importante! Ele é o roteador principal da sua aplicação MVC, 
+responsável por interpretar a URL que o usuário digitou e chamar o controller e o método correspondentes.*/
+
 ?>

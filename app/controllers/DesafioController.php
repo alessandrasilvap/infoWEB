@@ -15,4 +15,7 @@ class DesafioController extends Controller {
     }
 }
 
+/*Este controller é um pouco mais complexo que o anterior, pois ele lida com a lógica de buscar dados.
+Ele está fazendo o seguinte: Inclusões, conexão e modelo, busca de dados, renderiza a view*/
+
 ?>

@@ -6,4 +6,6 @@ class IntroducaoController extends Controller {
     }
 }
 
+/*É o mesmo padrão: um método index() que carrega a view introducao/index.*/
+
 ?>

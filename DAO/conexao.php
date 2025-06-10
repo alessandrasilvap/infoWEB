@@ -22,4 +22,9 @@ class Conexao{
     }
 }
 
+/*Este arquivo define uma classe Conexao que implementa o padrão Singleton para gerenciar 
+a conexão com o banco de dados. Isso significa que ele garante que haja apenas uma instância 
+da conexão com o banco de dados em toda a sua aplicação, o que é uma boa prática para evitar 
+sobrecarga e garantir a consistência.*/
+
 ?>

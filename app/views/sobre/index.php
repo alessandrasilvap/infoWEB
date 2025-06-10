@@ -25,6 +25,7 @@
                 </nav>
             </div>
         </header>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -32,17 +33,13 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="<?= BASE_URL ?>/home">Inicio</a>
                 </ul>
-
-                <!--Comentario Banner-->
-                
                 <div>
-                    <br><br><p>Este site foi criado com o intuito de explicar questões básicas de informática essenciais para navegar na web, em sites especializados, informativos e até mesmo para usar redes sociais.</p><br>
+                    <!--Comentario Banner-->
                     <img class="imagem"  src="../public/imagens/sobre/sobre nós.JPG" width="800" height="400"/>
                 </div>
                 <nav class="pagination-lg">
                     <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="<?= BASE_URL ?>/home">ínicio</a>
+                        <li class="page-item"><a class="page-link" href="<?= BASE_URL ?>/home">ínicio</a>
                     </ul>
                 </nav>
             </div>
@@ -50,7 +47,7 @@
     </div>
     <!--footer-->
     <footer>
-         <div class="footer-container">
+        <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
                 <p> Email:Info@exemplo.com</p>
@@ -74,13 +71,13 @@
                 <li><a href=""><i class="fab fa-Instagram"></i></a></li>
                 <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
             </div>
-         </div>
-         <div class="btn-bar">
-            <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-            <p>&copy;2025 your compan . All rights reserved</p>
-         </div>
-     </footer>
-     <!--end-footer-->
+            <div class="btn-bar">
+                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
+                <p>&copy;2025 your compan . All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!--end-footer-->
     <script src="../public/js/menu-mob.js"></script>
 </body>
 </html>

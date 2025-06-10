@@ -13,4 +13,6 @@ class Controller {
     }
 }
 
+/*Este arquivo é a classe base para todos os seus controladores*/
+
 ?>

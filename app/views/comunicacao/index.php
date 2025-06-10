@@ -22,32 +22,31 @@
                         <a class="nav-link disabled" href="#"></a>
                     </li>
                 </ul>
-                <br>
             </div>
         </div>
     </div>
     <!--Carrossel horizontal compacto-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false" style="max-width: 700px; margin: auto;">
-          <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="../public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
-                </div>
-                <div class="carousel-item">
-                  <img src="../public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
-                </div>
-                <div class="carousel-item">
-                  <img src="../public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
-                </div>
-          </div>
-          <!--Setas laterais-->
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="../public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="../public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
+            </div>
+        </div>
+        <!--Setas laterais-->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Próximo</span>
-          </a>
+        </a>
     </div>
     <nav class="pagination-lg">
         <ul class="pagination">
@@ -58,7 +57,7 @@
     </nav>
     <!--footer-->
     <footer>
-         <div class="footer-container">
+        <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
                 <p> Email:Info@exemplo.com</p>
@@ -82,13 +81,13 @@
                 <li><a href=""><i class="fab fa-Instagram"></i></a></li>
                 <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
             </div>
-         </div>
-         <div class="btn-bar">
-            <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-            <p>&copy;2025 your compan . All rights reserved </p>
-         </div>
-     </footer>
-     <!--end-footer-->
+            <div class="btn-bar">
+                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
+                <p>&copy;2025 your compan . All rights reserved </p>
+            </div>
+        </div>
+    </footer>
+    <!--end-footer-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

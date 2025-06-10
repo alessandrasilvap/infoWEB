@@ -63,4 +63,7 @@ class Quiz {
     }
 }
 
+/*Este arquivo define a classe Quiz, que é um Data Access Object (DAO). Ele é responsável 
+por interagir diretamente com o banco de dados para buscar informações relacionadas ao quiz.*/
+
 ?>
