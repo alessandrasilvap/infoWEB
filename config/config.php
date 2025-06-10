@@ -1,5 +1,5 @@
 <?php
 
-define('BASE_URL', 'http://localhost/projetoExtensao');
+define('BASE_URL', 'http://localhost/infoWEB');
 
 ?>
