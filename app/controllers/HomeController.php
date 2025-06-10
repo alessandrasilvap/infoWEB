@@ -1,8 +1,8 @@
 <?php
 
-class LoginController extends Controller {
+class HomeController extends Controller {
     public function index() {
-        $this->view('login/index');
+        $this->view('home/index');
     }
 }
 
