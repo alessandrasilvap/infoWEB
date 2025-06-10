@@ -25,7 +25,6 @@
                 </nav>
             </div>
         </header>
-        <script src="../public/js/menu-mob.js"></script>
         <main>
             <div class="container">
                 <div class="main-text">
@@ -92,5 +91,6 @@
          </div>
      </footer>
      <!--end-footer-->
+    <script src="../public/js/menu-mob.js"></script>
 </body>
 </html>
