@@ -1,8 +1,3 @@
--NOME DO BANCO DE DADOS É ----> infoweb <---- QUANDO CRIAR
-
-
-README.md
-
                                 Explicação do .htaccess
 
 
