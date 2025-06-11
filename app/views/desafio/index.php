@@ -45,9 +45,15 @@
                     </li>
                 </ul>
                 <br>
-                <p>Agora teste seu conhecimento! Participe do nosso caça-palavras e do quiz. A melhor maneira de aprender é botando em prática.</p>
+                <h3>Agora teste seu conhecimento! Participe do nosso caça-palavras e do quiz. A melhor maneira de aprender é botando em prática.</h3>
+                <br>
+                <br>
                 <!--CAÇA-PALAVRAS-->
-                <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/ac9b785faa814f71b96e4a1fca8c12ea?themeId=2&templateId=10&fontStackId=0" width="500" height="580" frameborder="0" allowfullscreen></iframe>
+                <iframe style="mmax-width:100%; margin-left: 30%;" src="https://wordwall.net/pt/embed/ac9b785faa814f71b96e4a1fca8c12ea?themeId=2&templateId=10&fontStackId=0" width="500" height="580" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <br>
+                <br>
+                <br>
                 <!--QUIZ-->
                 <div class="quiz-container">
                     <button class="start-quiz button">Iniciar Quiz</button>
@@ -60,19 +66,6 @@
                 <script>
                     const questions = <?= json_encode($perguntas); ?>;
                 </script>
-                <nav class="pagination-lg">
-                    <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="<?= BASE_URL ?>/introducao">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="<?= BASE_URL ?>/dicas">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link" href="<?= BASE_URL ?>/desafio">3</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </div>
