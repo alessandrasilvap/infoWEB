@@ -9,7 +9,6 @@
 
 .btnAbre {
     background-color: #00008b; /*Cor de fundo*/
-    /*Caso esse não esteja bom teste: #0000cd e #4b0082*/
     color: white; /*Cor da fonte*/
     border-radius: 50%; /*Bordas arredondadas*/
     display: flex; /*Permite organizar elementos em um container de forma flexível*/
@@ -39,7 +38,7 @@
 
 
 .painel-acessibilidade button {
-    background-color: #468749; /*Cor de fundo*/
+    background-color: #00008b; /*Cor de fundo*/
     color: white; /*Cor da fonte*/
     border: none; /*Indica que um elemento não terá borda e será computado com espessura 0*/
     padding: 10px; /*Espaçamento entre o conteudo e borda*/
@@ -59,7 +58,7 @@
 
 
 label {
-    color: #4caa38; /*Cor da fonte*/
+    color: #00008b; /*Cor da fonte*/
 }
 
 
@@ -80,7 +79,7 @@ label {
 
 
 .btnFeedback {
-    background-color: #468749; /*Cor do fundo*/
+    background-color: #00008b; /*Cor do fundo*/
     color: white; /*Cor da fonte*/
     border-radius: 50%; /*Bordas arredondadas*/
     display: flex; /*Permite organizar elementos em um container de forma flexível*/
@@ -111,12 +110,12 @@ label {
 
 .painel-feedback h3 {
     margin-bottom: 10px; /*Define a margem inferior de um elemento*/
-    color: #4caa38; /*Cor da fonte*/
+    color: #00008b; /*Cor da fonte*/
 }
 
 
 .painel-feedback p {
-    color: #4caa38; /*Cor da fonte*/
+    color: #00008b; /*Cor da fonte*/
 }
 
 
@@ -130,7 +129,7 @@ label {
 
 
 .painel-feedback button {
-    background-color: #468749; /*Cor de fundo*/
+    background-color: #00008b; /*Cor de fundo*/
     color: white; /*Cor da fonte*/
     border: none; /*Bordas para as caixas*/
     padding: 10px; /*Espaçamento entre o conteudo e borda*/

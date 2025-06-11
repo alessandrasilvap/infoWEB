@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/> <!--Google Material Symbols-->
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/quiz.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/acesibfeedback.css">
 </head>
 <body>
     <div class="banner-azul">

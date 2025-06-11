@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/> <!--Google Material Symbols-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/comunicacao.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/acesibfeedback.css">
 </head>
 <body>
     <div class="container-fluid">
