@@ -8,7 +8,8 @@
 
 
 .btnAbre {
-    background-color: #468749; /*Cor de fundo*/
+    background-color: #00008b; /*Cor de fundo*/
+    /*Caso esse não esteja bom teste: #0000cd e #4b0082*/
     color: white; /*Cor da fonte*/
     border-radius: 50%; /*Bordas arredondadas*/
     display: flex; /*Permite organizar elementos em um container de forma flexível*/
