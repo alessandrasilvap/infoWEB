@@ -124,5 +124,6 @@
     </div>
     <script src="<?= BASE_URL ?>/public/js/acessibfeedback.js"></script> <!--Código JS do painel de acessibilidade e da caixa de feedback-->
     <script src="<?= BASE_URL ?>/public/js/menu-mob.js"></script>
+    <script src="<?= BASE_URL ?>/public/js/validacaoquiz.js"></script>
 </body>
 </html>
