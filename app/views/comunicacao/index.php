@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comunicação</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../public/css/comunicacao.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/comunicacao.css">
 </head>
 <body>
     <div class="container-fluid">
@@ -29,13 +29,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false" style="max-width: 700px; margin: auto;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
+                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="../public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
+                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="../public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
+                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
             </div>
         </div>
         <!--Setas laterais-->
@@ -60,9 +60,9 @@
         <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
-                <p> Email:Info@exemplo.com</p>
-                <p>Phone:121 56556 5655556</p>
-                <p>Adress</p>
+                <p>Email:Info@exemplo.com</p>
+                <p>Phone:21 96875-4878</p>
+                <p>localhost/ecoPoint</p>
             </div>
             <div class="footer-content">
                 <h3>Desenvolvedores</h3>
@@ -73,17 +73,6 @@
                     <li><a href="">Daniel Jesus Dias Alves</a></li>
                     <li><a href="">Gabriel Araújo de Oliveira</a></li>
                 </ul>
-            </div>
-            <div class="footer-content">
-                <h3>Fallow Us</h3>
-                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                <li><a href=""><i class="fab fa-Twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-Instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
-            </div>
-            <div class="btn-bar">
-                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-                <p>&copy;2025 your compan . All rights reserved </p>
             </div>
         </div>
     </footer>

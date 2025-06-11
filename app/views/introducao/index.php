@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introdução</title>
-    <link rel="stylesheet" href="../public/css/index.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
 </head>
 <body>
     <div class="banner-azul">
@@ -20,7 +20,7 @@
                         <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
                     </ul>
                     <div class="menu-icon">
-                        <img src="../public/imagens/home/menu.png" alt="" height="50">
+                        <img src="<?= BASE_URL ?>/public/imagens/home/menu.png" alt="" height="50">
                     </div>
                 </nav>
             </div>
@@ -35,7 +35,7 @@
     <div class="container-card">
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/tumb.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/tumb.svg" height="150">
             </div>
             <div class="content">
                 <h3>Thumbnail</h3>
@@ -46,7 +46,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/backup.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/backup.svg" height="150">
             </div>
             <div class="content">
                 <h3>Backup</h3>
@@ -57,7 +57,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/software.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/software.svg" height="150">
             </div>
             <div class="content">
                 <h3>Software</h3>
@@ -68,7 +68,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/hardware.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/hardware.svg" height="150">
             </div>
             <div class="content">
                 <h3>Hardware</h3>
@@ -79,7 +79,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/link.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/link.svg" height="150">
             </div>
             <div class="content">
                 <h3>Link</h3>
@@ -90,7 +90,7 @@
         </div>
         <div class="card">
             <div class="icon">
-                <img src="../public/imagens/introducao/ip.svg" height="150">
+                <img src="<?= BASE_URL ?>/public/imagens/introducao/ip.svg" height="150">
             </div>
             <div class="content">
                 <h3>IP</h3>
@@ -105,9 +105,9 @@
         <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
-                <p> Email:Info@exemplo.com</p>
-                <p>Phone:121 56556 5655556</p>
-                <p>Adress</p>
+                <p>Email:Info@exemplo.com</p>
+                <p>Phone:21 96875-4878</p>
+                <p>localhost/ecoPoint</p>
             </div>
             <div class="footer-content">
                 <h3>Desenvolvedores</h3>
@@ -119,21 +119,10 @@
                     <li><a href="">Gabriel Araújo de Oliveira</a></li>
                 </ul>
             </div>
-            <div class="footer-content">
-                <h3>Fallow Us</h3>
-                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                <li><a href=""><i class="fab fa-Twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-Instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
-            </div>
-            <div class="btn-bar">
-                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-                <p>&copy;2025 your compan . All rights reserved</p>
-            </div>
         </div>
     </footer>
     <!--end-footer-->
-    <script src="../public/js/menu-mob.js"></script>
-    <script src="../public/js/card.js"></script>
+    <script src="<?= BASE_URL ?>/public/js/menu-mob.js"></script>
+    <script src="<?= BASE_URL ?>/public/js/card.js"></script>
 </body>
 </html>

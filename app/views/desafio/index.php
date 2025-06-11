@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafios</title>
-    <link rel="stylesheet" href="../public/css/index.css">
-    <link rel="stylesheet" href="../public/css/quiz.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/quiz.css">
 </head>
 <body>
     <div class="banner-azul">
@@ -21,7 +21,7 @@
                         <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
                     </ul>
                     <div class="menu-icon">
-                        <img src="../public/imagens/home/menu.png" alt="" height="50">
+                        <img src="<?= BASE_URL ?>/public/imagens/home/menu.png" alt="" height="50">
                     </div>
                 </nav>
             </div>
@@ -41,6 +41,7 @@
                         <a class="nav-link disabled" href="#"></a>
                     </li>
                 </ul>
+                <br>
                 <p>Agora teste seu conhecimento! Participe do nosso caça-palavras e do quiz. A melhor maneira de aprender é botando em prática.</p>
                 <!--CAÇA-PALAVRAS-->
                 <iframe style="max-width:100%" src="https://wordwall.net/pt/embed/ac9b785faa814f71b96e4a1fca8c12ea?themeId=2&templateId=10&fontStackId=0" width="500" height="580" frameborder="0" allowfullscreen></iframe>
@@ -77,9 +78,9 @@
         <div class="footer-container">
             <div class="footer-content">
                 <h3>Contact Us</h3>
-                <p> Email:Info@exemplo.com</p>
-                <p>Phone:121 56556 5655556</p>
-                <p>Adress</p>
+                <p>Email:Info@exemplo.com</p>
+                <p>Phone:21 96875-4878</p>
+                <p>localhost/ecoPoint</p>
             </div>
             <div class="footer-content">
                 <h3>Desenvolvedores</h3>
@@ -91,20 +92,9 @@
                     <li><a href="">Gabriel Araújo de Oliveira</a></li>
                 </ul>
             </div>
-            <div class="footer-content">
-                <h3>Fallow Us</h3>
-                <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                <li><a href=""><i class="fab fa-Twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-Instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-Linkedin"></i></a></li>
-            </div>
-            <div class="btn-bar">
-                <p>Acesse nosso mais novo projeto: localhost/ecoPoint/</p>
-                <p>&copy;2025 your compan . All rights reserved</p>
-            </div>
         </div>
     </footer>
     <!--end-footer-->
-    <script src="../public/js/menu-mob.js"></script>
+    <script src="<?= BASE_URL ?>/public/js/menu-mob.js"></script>
 </body>
 </html>

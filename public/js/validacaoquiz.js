@@ -79,13 +79,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         switch (true) {
             case (performance < 33):
-                message = '🟢 Iniciante: você está dando os primeiros passos rumo a um planeta mais sustentável. Que tal aprender mais sobre reciclagem e tentar novamente? Cada atitude conta para reduzir o impacto ambiental! 💚';
+                message = '🌱 Iniciante: você está dando os primeiros passos. Que tal aprender mais sobre mundo da tecnolgia e tentar novamente? Cada atitude conta! 📚';
                 break;
             case (performance < 67):
-                message = '🔄 Intermediário: você já sabe bastante coisa sobre reciclagem eletrônica! Continue assim — pequenas ações geram grandes impactos positivos no meio ambiente! 🌍';
+                message = '🚀 Intermediário: você já sabe bastante coisa sobre Tecnologia da Informação! Continue assim você está indo muito bem! ✨';
                 break;
             case (performance >= 67):
-                message = '🏆 Especialista: parabéns! Você mostra grande conhecimento sobre reciclagem e sustentabilidade. Continue sendo um exemplo e compartilhe essas práticas com outras pessoas! 🤝';
+                message = '👑 Especialista: parabéns! Você mostra grande conhecimento sobre o mundo TI. Continue sendo um exemplo e compartilhe essas informações com outras pessoas! 🌐';
                 break;
             default:
                 message = 'Erro ao calcular desempenho.';
