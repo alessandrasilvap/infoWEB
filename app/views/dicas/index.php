@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/acesibfeedback.css">
 </head>
-<body>
+<body class="conteudo">
     <div class="banner-azul">
         <header>
             <div class="container">
@@ -20,6 +20,7 @@
                     </div>
                     <ul class="ul">
                         <li><a href="<?= BASE_URL ?>/home">Home</a></li>
+                        <li><a href="<?= BASE_URL ?>/comunicacao">Comunicação</a></li>
                         <li><a href="<?= BASE_URL ?>/sobre">Sobre nós</a></li>
                         <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
                     </ul>

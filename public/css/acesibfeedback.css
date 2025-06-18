@@ -65,7 +65,12 @@ label {
 /*Contraste*/
 .fundo-escuro {
     background-color: #333; /*Cor do fundo*/
-    color: white; /*Cor da fonte*/
+    color: #333; /*Cor da fonte*/
+}
+
+
+h3 {
+    color: #4e4ee4;
 }
 
 

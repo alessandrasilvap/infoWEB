@@ -7,41 +7,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!--Link para utilização de ícones Font Awesome-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/> <!--Google Material Symbols-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/comunicacao.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/acesibfeedback.css">
 </head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<?= BASE_URL ?>/home">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#"></a>
-                    </li>
-                </ul>
+<body class="conteudo">
+    <div class="banner-azul">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="banenr.html">infoWEB</a>
+                    </div>
+                    <ul class="ul">
+                        <li><a href="<?= BASE_URL ?>/home">Home</a></li>
+                        <li><a href="<?= BASE_URL ?>/comunicacao">Comunicação</a></li>
+                        <li><a href="<?= BASE_URL ?>/sobre">Sobre nós</a></li>
+                        <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <img src="<?= BASE_URL ?>/public/imagens/home/menu.png" alt="" height="50">
+                    </div>
+                </nav>
             </div>
-        </div>
+        </header>
     </div>
-    <!--Carrossel horizontal compacto-->
+    <br>
+    <br>       
+    <!-- Carrossel horizontal compacto -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false" style="max-width: 700px; margin: auto;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
+            <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 1.png" class="d-block w-100" alt="Slide 1" style="height: 600px; object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
+            <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 2.png" class="d-block w-100" alt="Slide 2" style="height: 600px; object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
+            <img src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 3.png" class="d-block w-100" alt="Slide 3" style="height: 600px; object-fit: cover;">
             </div>
         </div>
-        <!--Setas laterais-->
+        <!-- Setas laterais -->
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
@@ -51,13 +56,7 @@
             <span class="sr-only">Próximo</span>
         </a>
     </div>
-    <nav class="pagination-lg">
-        <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" href="<?= BASE_URL ?>/home">ínicio</a>
-            </li>
-        </ul>
-    </nav>
+    <br>
     <!--footer-->
     <footer>
         <div class="footer-container">

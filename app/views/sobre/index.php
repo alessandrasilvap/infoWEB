@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/index.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/acesibfeedback.css">
 </head>
-<body>
+<body class="conteudo">
     <div class="banner-azul">
         <header>
             <div class="container">
@@ -19,6 +19,7 @@
                     </div>
                     <ul class="ul">
                         <li><a href="<?= BASE_URL ?>/home">Home</a></li>
+                        <li><a href="<?= BASE_URL ?>/comunicacao">Comunicação</a></li>
                         <li><a href="<?= BASE_URL ?>/sobre">Sobre nós</a></li>
                         <li><a href="<?= BASE_URL ?>/desafio">Jogos</a></li>
                     </ul>
@@ -32,19 +33,27 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="<?= BASE_URL ?>/home">Inicio</a>
-                </ul>
-                <div>
-                    <!--Comentario Banner-->
-                    <img class="imagem"  src="<?= BASE_URL ?>/public/imagens/sobre/sobre nós.JPG" width="800" height="400"/>
-                </div>
-                <nav class="pagination-lg">
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="<?= BASE_URL ?>/home">ínicio</a>
-                    </ul>
-                </nav>
+                <h2 id="text">Internet sem Medo: Conscientização sobre Segurança para Todos</h2>
+
+                <p id="text">A crescente digitalização da sociedade trouxe inúmeros benefícios, mas também expôs uma 
+                parcela da população a riscos cibernéticos, especialmente aqueles que não tiveram 
+                oportunidades de acompanhar a evolução tecnológica. 
+                Dentro desse contexto, destaca-se o grupo dos Usuários de Alto Risco Digital, que inclui 
+                idosos, pessoas com baixa escolaridade, novatos na internet, indivíduos que evitam ou 
+                têm pouca paciência para tecnologia, além daqueles que compartilham informações 
+                excessivamente ou clicam impulsivamente em links suspeitos. Esses perfis apresentam maior 
+                vulnerabilidade a golpes, ataques e violações de dados, o que exige uma conscientização e 
+                medidas de proteção específicas. Pensando nisso, o projeto visa desenvolver um site educativo
+                sobre segurança na internet, direcionado a esse público. O objetivo é fornecer informações
+                acessíveis e interativas sobre os principais perigos online, como golpes, fraudes e 
+                vazamento de dados, além de ensinar boas práticas para navegação segura. Dessa maneira, 
+                foi criado o site educativo InfoWEB que visa a segurança na internet para aqueles que 
+                desejam aprender mais sobre o ambiente digital, ajudando a prevenir fraudes e aumentar a 
+                conscientização sobre o tema. O projeto "Navegando com Segurança - Educação Digital para 
+                Todos" busca unir educação e tecnologia para atender uma necessidade crescente na sociedade. 
+                Com a participação ativa dos alunos do curso de Análise e Desenvolvimento de Sistemas, a 
+                iniciativa contribuirá tanto para o aprendizado acadêmico quanto para o impacto social, 
+                ajudando a tornar a internet um ambiente mais seguro para todos.</p>
             </div>
         </div>
     </div>
