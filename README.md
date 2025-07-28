@@ -1,31 +1,61 @@
-                                Explicação do .htaccess
+# 🌐 InfoWeb
 
+Uma plataforma de extensão desenvolvida para auxiliar usuários com pouco conhecimento sobre a internet, oferecendo informações e recursos para a compreensão básica da navegação, ferramentas online e segurança digital.
 
-Options -Indexes: Impede que os diretórios do seu site (como app/controllers ou app/models) sejam listados no navegador se alguém tentar acessá-los diretamente.
+## 🌟 Visão Geral
 
-RewriteEngine On: Ativa o módulo de reescrita de URLs do Apache.
+O InfoWeb nasceu com o propósito de democratizar o acesso ao conhecimento sobre o uso da internet, capacitando indivíduos a navegar com mais segurança e confiança no ambiente digital. Nosso foco é desmistificar conceitos e fornecer um guia prático para quem está dando os primeiros passos online.
 
-RewriteBase /infoWEB/: Extremamente importante para o seu caso! Isso define a base a partir da qual as URLs serão reescritas. Como seu projeto está em http://localhost/infoWEB/, esta é a base correta. Se você estivesse acessando diretamente http://localhost/ e o projeto estivesse na raiz do htdocs, seria RewriteBase /.
+## ✨ Funcionalidades
 
-RewriteCond %{REQUEST_FILENAME} !-d: Esta linha e a próxima são "condições". Elas dizem: "Se a requisição NÃO for para um diretório real existente..."
+* **Seções de Aprendizagem:** Tópicos organizados sobre navegação, e-mail, redes sociais, compras online, etc.
+* **Dicas de Segurança:** Orientações sobre como identificar golpes, proteger dados e usar senhas fortes.
+* **Glossário de Termos:** Explicação de termos técnicos de forma simples.
+* **Recursos Interativos:** Quiz e caça-palavras personalizados.
 
-RewriteCond %{REQUEST_FILENAME} !-f: "...E se a requisição NÃO for para um arquivo real existente..."
+## 🚀 Tecnologias Utilizadas (Preencha com o que você usou!)
 
-RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]: "...Então, reescreva qualquer coisa (^(.+)$) que vem depois da RewriteBase (ex: comunicacao/index) e mande para index.php?url= e adicione o que foi capturado ($1)."
+* **Frontend:**
+    * HTML5
+    * CSS3
+    * JavaScript
+* **Backend:**
+    * PHP
+* **Banco de Dados:**
+    * MySQL
+* **Controle de Versão:**
+    * Git / GitHub
+    * Visual Studio Code
+* **Outras Ferramentas/Bibliotecas:**
+    * API ViaCEP (Para a busca do CEP)
+    * API Leaflet (Para o mapa interativo)
+    * API quiz/caça-palavra (API integrada junto com o PHP e Banco de dados)
 
-QSA: (Query String Append) Anexa quaisquer outros parâmetros da URL original (se houver) à nova URL.
+## 💻 Como Rodar o Projeto Localmente
 
-L: (Last Rule) Indica que esta é a última regra a ser processada.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/alessandrasilvap/infoWEB.git
+    cd infoWEB
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    Visual Studio Code e XAMPP e MySQL Workbench
+    Caso precise instale algumas extensões no Visual Studio Code
+    ```
+3.  **Configuração do Banco de Dados (se aplicável):**
+    * Crie um banco de dados MySQL chamado `infoweb`.
+    * Importe o script SQL inicial (`infoweb.sql`).
+    * Configure as credenciais do banco de dados no arquivo de configuração.
+4.  **Acesse no navegador:**
+    Abra seu navegador e acesse `http://localhost`.
 
+## 👥 Equipe (Se for um projeto em grupo, liste os membros)
 
+* Alessandra Cristina da Silva Pereira (https://github.com/alessandrasilvap)
+* Bryan Caristiati Costa (https://github.com/Bryan22890)
+* Eric Luiz Xavier de Araujo (https://github.com/DanielUni-ass)
+* Daniel Jesus Dias Alves (https://github.com/Eric-L-Araujo)
+* Gabriel Araújo de Oliveira (https://github.com/gab-2005)
 
-
-                    Mudanças na chamada de imagens e de estilização css
-
-De: href="../public/css/comunicacao.css"
-Para: href="<?= BASE_URL ?>/public/css/comunicacao.css"
-
-De: src="../public/imagens/comunicacao/imagem 1.png"
-Para: src="<?= BASE_URL ?>/public/imagens/comunicacao/imagem 1.png"
-
-Isso garante que, não importa onde o usuário esteja na navegação do seu site, o caminho para seus arquivos estáticos será sempre um caminho absoluto e funcionará corretamente.
+Este projeto foi desenvolvido como parte de um trabalho em grupo. Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
